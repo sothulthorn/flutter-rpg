@@ -6,7 +6,7 @@ mixin Stats {
   int _skill = 10;
 
   // getters
-  int get ponts => _points;
+  int get points => _points;
 
   Map<String, int> get statsAsMap => {
         "health": _health,
@@ -37,6 +37,7 @@ mixin Stats {
       if (stat == 'skill') {
         _skill++;
       }
+      _points--;
     }
   }
 
