@@ -3,12 +3,15 @@ import 'package:flutter_rpg/screens/home/home.dart';
 import 'package:flutter_rpg/services/character_store.dart';
 import 'package:flutter_rpg/theme.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 // firebase
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-void main() async {
+Future<void> main() async {
+  await dotenv.load(fileName: ".env");
+
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
