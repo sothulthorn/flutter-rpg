@@ -5,7 +5,7 @@ The **RPG Character Creator** is a mobile application built using Flutter, allow
 ## Features
 
 - **Character Creation**: Users can create characters with a name, slogan, and choose from a list of available skills.
-- **Character Stats**: View stats such as health, strength, agility, and more.
+- **Character Stats**: View stats such as health, attack, defense and skill.
 - **CRUD Functionality**: Connected to Firebase, users can:
   - Create a new character.
   - Update existing character details.
@@ -16,7 +16,7 @@ The **RPG Character Creator** is a mobile application built using Flutter, allow
 ## Application Overview
 
 <div>
-    <img src="screenshots/home-screen.png"  width="30%" height="30%">
-    <img src="screenshots/create-screen.png"  width="30%" height="30%">
-    <img src="screenshots/profile-screen.png"  width="30%" height="30%">
+    <img src="screenshots/home-screen.png" width="30%" height="30%" style="margin-right: 10px;">
+    <img src="screenshots/create-screen.png" width="30%" height="30%" style="margin-right: 10px;">
+    <img src="screenshots/profile-screen.png" width="30%" height="30%">
 </div>
